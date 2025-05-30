@@ -14,7 +14,7 @@
 # +------------------------------------------------------+ #
 ############################################################
 
-quest_frenquecy: 120 # How often the quests should occur.
+quest_frenquecy: 120 # How often the quests should occur (in minutes).
 progressbars:
   actionbar: true # Display the progress bar on the actionbar during an active quest
   number-bars: 20 # The amount of bars
