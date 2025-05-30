@@ -9,11 +9,38 @@ GlobalQuests is a Minecraft plugin that enables players to collaborate on server
 - Mining a specific number of blocks  
 - Collecting experience points (EXP)  
 - Killing mobs  
-- Farming specific items
-- Crafting x amount of items
-- Placing x amount of blocks 
+- Farming specific items  
+- Crafting x amount of items  
+- Placing x amount of blocks  
 
-All progress is tracked globally, and rewards are given when the quest is completed by the community.
+All progress is tracked globally, and rewards are given when the quest is completed by the community. The plugin is fully configurable and supports custom quest types, dynamic reward distribution, and persistent data saving using simple JSON files.
+
+---
+
+## Quest Progress
+
+Quest progress is **tracked globally**, meaning all players on the server contribute to the same active quest. Each player's contributions are individually tracked, which allows for features such as top contributors and leaderboard-style rewards.
+
+---
+
+## Reward System
+
+You have control over how rewards are given when a quest is completed:
+
+- **Top Contributors**: You can configure different rewards for the top 3 players based on their contributions.
+- **All Participants**: You can optionally enable rewards for everyone who contributed, regardless of amount.
+- **Configurable**: This logic is configurable in the plugin's settings so you can choose what fits your server best.
+
+---
+
+## Data Storage
+
+Quest and player contribution data is **persisted using a local JSON file**, meaning all data survives server restarts without needing a database. The plugin saves:
+
+- Current active quest
+- Progress and total contribution amounts
+- Time remaining on the quest
+- Player contribution data
 
 ---
 
@@ -63,11 +90,11 @@ You can view a sample configuration file here:
 ![image](https://github.com/user-attachments/assets/29aa2ba5-53d3-4628-abbe-8e2c642f5fb1)
 
 _Note that centered messages are a must. If you don't know how to do this, please do not quote for the plugin._
+
 ---
 
 ## Miscellaneous
 
 - All commands support tab completion for ease of use.
 - Plugin includes **resell rights**.
-
----
+- No external database needed — just drop it in and go!
