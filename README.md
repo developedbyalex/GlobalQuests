@@ -89,7 +89,7 @@ You can view a sample configuration file here:
 ![image](https://github.com/user-attachments/assets/410eac44-b1a1-4f06-9460-fc323736b4ef)
 ![image](https://github.com/user-attachments/assets/29aa2ba5-53d3-4628-abbe-8e2c642f5fb1)
 
-_Note that centered messages are a must. If you don't know how to do this, please do not quote for the plugin._
+_Note that centred messages are a must. If you don't know how to do this, please do not quote for the plugin._
 
 ---
 
